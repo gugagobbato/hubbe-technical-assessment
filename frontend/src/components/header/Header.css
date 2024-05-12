@@ -1,0 +1,16 @@
+.header {
+  background-image: linear-gradient(to right, #b031f7, #f1984d);
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-logo {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+}

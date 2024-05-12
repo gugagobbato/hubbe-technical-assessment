@@ -1,0 +1,20 @@
+{
+  "name": "secure-screen-backend",
+  "version": "0.1.0",
+  "description": "Backend for the secure screen sharing app",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./app",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "socket.io-client": "^4.1.2"
+  }
+}
